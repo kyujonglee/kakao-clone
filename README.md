@@ -1,3 +1,3 @@
 # kakao-clone
 
-kakao cloning desktop
+- upload img file in here later
