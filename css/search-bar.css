@@ -1,28 +1,29 @@
 .search-bar {
-    padding : 10px 25px;
-    position: relative;
+  padding: 10px 25px;
+  position: relative;
 }
 .search-bar input {
-    width : 100%;
-    padding : 10px 15px;
-    box-sizing: border-box;
-    border : 0;
-    border-radius: 5px;
-    background-color : #f1f2f3;
-    font-size: 13px;
-    text-align: center;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 0;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: #f1f2f3;
+  font-size: 13px;
+  text-align: center;
+  transition: border-color 0.5s linear;
 }
 
 .search-bar input:focus {
-    outline:none;
+  outline: none;
+  border-color: #ffe94a;
 }
 
 .search-bar i {
-    position: absolute;
-    color : #bbbbbb;
-    top : 20px;
-    left : 40px;
-    font-size: 20px;
+  position: absolute;
+  color: #bbbbbb;
+  top: 20px;
+  left: 40px;
+  font-size: 20px;
 }
-
-
